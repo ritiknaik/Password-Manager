@@ -1,0 +1,50 @@
+body{
+    margin:0px;
+    background-color: black;
+    font-family: 'Roboto Slab', serif;
+}
+h1{
+    text-align: center;
+    color:#3bd1eb;
+    font-size:3rem;
+    font-weight:800
+}
+form img{
+    width:100%;
+    height:auto;
+    z-index:-1;
+}
+form nav{
+    position: absolute;
+    left:50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+}
+form{
+    position:relative;
+}
+form nav ul{
+    list-style-type: none;
+}
+.buttons{
+    border-radius: 20%;
+    font-size:3rem;
+    margin:2rem;
+    width:14rem;
+    height:6rem;
+    background-color: black;
+    border-color: #3bd1eb;
+    display:inline;
+}
+nav a:link{
+    color: #3bd1eb;
+}
+nav a:hover{
+    color: #16faa7;
+}
+nav a:visited{
+    color: #14c4f5;
+}
+a{
+    text-decoration:none;
+}

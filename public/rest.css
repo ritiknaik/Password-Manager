@@ -1,0 +1,151 @@
+body{
+    margin:0px;
+    background-color: black;
+    font-family: 'Roboto Slab', serif;
+}
+h1{
+    text-align: center;
+    color:#3bd1eb;
+    font-size:3rem;
+    font-weight:800
+}
+form{
+    position:relative;
+}
+form nav ul{
+    list-style-type: none;
+}
+.buttons1{
+    position: relative;
+    left:30%;
+    top:50%;;
+    border-radius: 20%;
+    font-size:3rem;
+    margin:2rem;
+    width:15rem;
+    height:8rem;
+    color:#3bd1eb;
+    background-color: black;
+    border-color: #3bd1eb;
+    display:inline;
+}
+.buttons2{
+    position: absolute;
+    left:40%;
+    top:400%;
+    border-radius: 20%;
+    font-size:3rem;
+    margin:2rem;
+    width:14rem;
+    height:6rem;
+    color:#3bd1eb;
+    background-color: black;
+    border-color: #3bd1eb;
+    display:inline;
+}
+.buttons3{
+    position: absolute;
+    left:40%;
+    top:90%;
+    border-radius: 20%;
+    font-size:3rem;
+    margin:2rem;
+    width:14rem;
+    height:6rem;
+    color:#3bd1eb;
+    background-color: black;
+    border-color: #3bd1eb;
+    display:inline;
+}
+
+.text1{
+
+    position: absolute;
+    left:42%;
+    top:0%;
+    border-radius: 20%;
+    font-size:3rem;
+    width:30rem;
+    height:6rem;
+    color:#3bd1eb;
+    border-color: #3bd1eb;
+    display:inline;
+
+
+}
+
+.in1{
+
+    position: absolute;
+    left:42%;
+    top:100%;
+    font-size:2.5rem;
+    width:17rem;
+    height:4rem;
+    color:#3bd1eb;
+    border-color: black;
+    display:inline;
+
+}
+
+.in2{
+
+    position: absolute;
+    left:42%;
+    top:300%;
+    font-size:2.5rem;
+    width:17rem;
+    height:4rem;
+    color:#3bd1eb;
+    border-color: black;
+    display:inline;
+
+}
+.text2{
+
+    position: absolute;
+    left:42%;
+    top:205%;
+    border-radius: 20%;
+    font-size:3rem;
+    width:30rem;
+    height:6rem;
+    color:#3bd1eb;
+    border-color: #3bd1eb;
+    display:inline;
+
+
+}
+.text3{
+
+    position: absolute;
+    left:42%;
+    top:395%;
+    border-color: black;
+    display:inline;
+    color:white;
+
+
+}
+.text4{
+
+    position: absolute;
+    left:59%;
+    top:395%;
+    display:inline;
+}
+
+nav a:link{
+    color: #3bd1eb;
+}
+nav a:hover{
+    color: #16faa7;
+}
+nav a:visited{
+    color: #14c4f5;
+}
+a{
+    text-decoration:none;
+}
+
+
