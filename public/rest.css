@@ -101,6 +101,20 @@ form nav ul{
     display:inline;
 
 }
+.in3{
+
+    position: absolute;
+    left:42%;
+    top:500%;
+    font-size:2.5rem;
+    width:17rem;
+    height:4rem;
+    color:#3bd1eb;
+    border-color: black;
+    display:inline;
+
+}
+
 .text2{
 
     position: absolute;
@@ -134,11 +148,46 @@ form nav ul{
     top:395%;
     display:inline;
 }
+.text5{
 
-nav a:link{
+    position: absolute;
+    left:42%;
+    top:400%;
+    border-radius: 20%;
+    font-size:3rem;
+    width:30rem;
+    height:6rem;
+    color:#3bd1eb;
+    border-color: #3bd1eb;
+    display:inline;
+
+
+}
+.buttons5{
+    position: absolute;
+    left:40%;
+    top:600%;
+    border-radius: 20%;
+    font-size:3rem;
+    margin:2rem;
+    width:14rem;
+    height:6rem;
+    color:#3bd1eb;
+    background-color: black;
+    border-color: #3bd1eb;
+    display:inline;
+}
+
+
+form a:visited{
+    color: #14c4f5;
+}
+
+
+form a:link{
     color: #3bd1eb;
 }
-nav a:hover{
+form a:hover{
     color: #16faa7;
 }
 nav a:visited{

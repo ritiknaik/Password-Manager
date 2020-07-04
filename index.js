@@ -33,13 +33,14 @@ app.get("/Mainpage",isLoggedIn,function(req,res){
 app.get("/SignUp",function(req,res){
     res.render("SignUp");
 });
-app.post("/SignUp",function(req,res){
+app.post("/Mainpage",function(req,res){
     console.log(req.body.username);
     console.log(req.body.password);
 
     console.log("Sign Up completed");
     User.register(new User({username: req.body.username}),req.body.password,function(err,user){
         if(err){
+            console.log("error");
             console.log(err);
             return res.render('SignUp');
         }
@@ -48,15 +49,17 @@ app.post("/SignUp",function(req,res){
                 res.redirect("/Mainpage");
             })
     })
+
 })
 app.get("/Login",function(req,res){
     res.render("Login");
 });
 app.post("/Login",passport.authenticate("local",{
     successRedirect:"/Mainpage",
-    failureRedirect:"/Login"
+    failureRedirect:"/SignUp"
 }),function(req,res){
-
+//    console.log(req.body.password),
+    
 });
 //LISTNER
 app.listen(3000,function(){
