@@ -8,7 +8,6 @@ var localStrategy = require("passport-local");
 var passportLocalMongoose = require("passport-local-mongoose");
 const path = require('path');
 var User = require("./modules/user");
-var generate = require("./modules/Generatepassword")
 app.set("view engine","ejs");
 app.use(require("express-session")({
     secret:"i am happy",
