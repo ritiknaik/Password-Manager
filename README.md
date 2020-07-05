@@ -5,6 +5,10 @@
 #built an express server
 
 
-run index.js file in node
-When console shows Server online, browse to localhost:3000
-You can seurely Signup or login and open your Password manager
+Run index.js file in node->
+When console shows Server online-> browse to localhost:3000->
+You can securely Signup or login and open your Password manager->
+click on Add Password to add a website and password->
+click on generate button to generate a password of length 8->
+click on update password to upadate password->
+click on logout to go back to welcome page
