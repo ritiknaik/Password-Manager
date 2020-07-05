@@ -8,7 +8,7 @@ var localStrategy = require("passport-local");
 var passportLocalMongoose = require("passport-local-mongoose");
 const path = require('path');
 var User = require("./modules/user");
-
+var generate = require("./modules/Generatepassword")
 app.set("view engine","ejs");
 app.use(require("express-session")({
     secret:"i am happy",
@@ -56,11 +56,22 @@ app.get("/Login",function(req,res){
 });
 app.post("/Login",passport.authenticate("local",{
     successRedirect:"/Mainpage",
-    failureRedirect:"/SignUp"
-}),function(req,res){
+    failureRedirect:"/SignUp",
+    }),function(err , user){
 //    console.log(req.body.password),
+        
     
 });
+
+app.get("/Addpassword",function(req,res){
+    res.render("Addpassword");
+})
+
+
+app.get("/Updatepassword",function(req,res){
+    res.render("Updatepassword")
+})
+
 //LISTNER
 app.listen(3000,function(){
     console.log("Server online");
